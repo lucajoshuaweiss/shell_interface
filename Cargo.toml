@@ -1,0 +1,8 @@
+[package]
+name = "shell_interface"
+version = "0.1.0"
+authors = ["Luca Joshua Weiß"]
+edition = "2021"
+
+[dependencies]
+gtk = { version = "0.9.4", package = "gtk4", features = ["v4_16"] }
